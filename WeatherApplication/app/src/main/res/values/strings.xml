@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather Application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_0_degrees">0°</string>
+    <string name="et_2_letters">IT</string>
+    <string name="et_town_name">Rome</string>
+    <string name="btn_serach">SEARCH</string>
+</resources>

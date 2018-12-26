@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/et_town"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="@string/et_town_name"/>
+    <EditText
+        android:id="@+id/et_country_2_letters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/et_town"
+        android:hint="@string/et_2_letters"/>
+    <TextView
+        android:id="@+id/tv_town_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/et_town"
+        android:text="Town Name: "
+        android:layout_alignBaseline="@id/et_town"/>
+
+    <TextView
+        android:id="@+id/tv_country_2_letters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/et_town"
+        android:text="Country 2 Letters: "
+        android:layout_alignBaseline="@id/et_country_2_letters"/>
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:text="@string/btn_serach"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/et_country_2_letters"/>
+
+</RelativeLayout>
